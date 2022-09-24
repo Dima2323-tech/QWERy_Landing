@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    background-color: black;
+    background-image: url("../img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.lstring::before , .rstring::after{
+    content: "";
+    background-color: #FFC178;
+    width: 72px;
+    height: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+}
+.rstring::after{
+    margin-left: 32px;
+}
+.sringafter:after {
+
+}
+header {
+    color: white;
+}
+.Header_Container{
+    padding-top: 66px;
+
+}
+.Header_Log{
+    display: flex;
+    align-items: center;
+}
+.Header_Navigation_cell{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Header_Nav_Button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 20px 0 150px;
+    transition: 0.5s;
+}
+.Header_Nav_Button:hover{
+    color: black;
+    transition: 0.5s;
+}
+.Header_Search{
+    display: flex;
+    justify-content: space-between;
+ }
+.Header_Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 85px;
+}
+.Header_Input{
+    background:none;
+    border: 0;
+    color:#FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 17px;
+}
+.fa-magnifying-glass{
+    display: flex;
+    align-items: center;
+}
+.Header_Logo_Text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.Banner_Container{
+    margin-top: 200px;
+    padding-left: 79px;
+}
+.Banner_Aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Banner_Aside_Social{
+    text-decoration: none;
+    color: white;
+}
+.fa-instagram , .fa-twitter , .fa-facebook-f{
+    padding-top: 22px;
+}
+.Banner_Aside_Text{
+    writing-mode: vertical-rl;
+}
+.Banner_Content{
+    display: flex;
+    justify-content: space-between;
+}
+.iteminvisible {
+    flex: 0 1 auto;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+.Banner_Tittle_Top{
+    color:#FFC178;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 6px;
+
+}
+.Banner_Tittle_Bottom{
+    margin-top: 32px;
+}
+.Banner_Tittle_Bottom>h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: white;
+}
+.Banner_Tittle_Bottom>span{
+    font-size: 80px;
+    font-weight: 400;
+    color: white;
+}
+.Scroll{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+}
+.fa-arrow-down{
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+}
+.Enjoy_Holiday_Content{
+    display: flex;
+    justify-content: space-between;
+    width: 1462px;
+}
+.Enjoy_Holiday_Container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 730px ;
+}
+.Enjoy_Holiday_Title>h2{
+    width: 360px;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 27px 0;
+}
+.Enjoy_Holiday_Text{
+    width: 490px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.Enjoy_Holiday_description_Container{
+    display: flex;
+    align-items: center;
+}
+.Enjoy_Holiday_Title>span{
+    color:#FFC178;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 6px;;
+}
+.Yellow_Read{
+    text-decoration: none;
+    color: #FBD784;
+}
+.fa-arrow-right{
+    color: #FBD784;
+    padding-left: 9px;
+}
+.Bromo_Container{
+    display: flex;
+    justify-content: center;
+    margin: 250px 0;
+}
+.Bromo_Content{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../img/bromo.png");
+    background-repeat:no-repeat ;
+    width: 1461px;
+    height: 985px;
+
+}
+.fa-angle-left , .fa-angle-right{
+    color: white;
+
+}
+.Bromo_Slide_Right , .Bromo_Slide_Left{
+    display: flex;
+    align-items: center;
+    padding: 49px;
+
+}
+.Bromo_Text{
+    width: 940px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 30px;
+}
+.Bromo_Text_Content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 45px;
+}
+.Bromo_Text_Title>h2{
+    font-size: 55px;
+    font-weight: 700;
+    padding: 27px 0;
+    color: white;
+}
+.Bromo_Text_Title>span{
+    color: #FFC178;
+}
+.Culture_Content{
+    display: flex;
+    justify-content: space-between;
+    width: 1462px;
+}
+.Culture_Container{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.Culture_Title>h2{
+    width: 470px;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 27px 0;
+}
+.Culture_Text{
+    width: 490px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.Culture_description_Container{
+    display: flex;
+    align-items: center;
+}
+.Culture_Title>span{
+    color:#FFC178;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 6px;;
+}
+.Explore_Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 262px;
+}
+.Explore_Content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1462px;
+}
+.Explore_Menu{
+    display: flex;
+    align-items: center;
+}
+.Explore_Logo_Text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Explore_Menu_Button{
+    padding-left:55px;
+}
+.Explore_Menu_Button>button{
+    background-color: rgba(255, 163, 67, 1);
+    border-radius: 8px;
+    width: 230px;
+    height: 69px;
+    border: none;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.Explore_Menu_Button>button:hover{
+    background: white;
+    border-radius: 8px;
+    width: 230px;
+    height: 69px;
+    border: none;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.Explore_Menu_Text{
+    font-weight: 400;
+    font-family: "DM Sans" , 'sans-serif';
+    font-size: 18px;
+}
+.After_Explore{
+    width: 1460px;
+    margin-top: 55px;
+    height: 1px;
+}
+.Footer_Container{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 55px;
+}
+.Footer_Content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 1462px;
+}
+.Footer_Menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    padding-bottom: 140px;
+}
+.Footer_Menu_Email_Title{
+    width: 400px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.Footer_Navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.Footer_Menu_Email_Input>input {
+    width: 340px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+.Footer_Menu_Email_Input>button{
+    width: 69px;
+    height: 69px;
+    background-color: #FFA343;
+    border-radius: 8px 8px 0px 0px;
+    border: none;
+    transition: 0.5s;
+}
+.Footer_Menu_Email_Input>button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+.Footer_Menu_Email_Input>button>i{
+    color: black;
+}
+.Footer_Menu_Email_After{
+    margin: 0;
+}
+.Footer_Nav_Button{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.Footer_Navigation>nav>ul>li{
+    padding-top: 20px;
+}
+.Footer_Navigation>nav>ul{
+    list-style-type:none;
+    padding-left: 0;
+}
+.yellow_tittle{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 209, 160, 1);
+}
+.Footer_Other{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 160px;
+}
+.Footer_Other_Documentation{
+    display: flex;
+    align-items: center;
+}
+.Footer_Other_Documentation>a{
+    padding-left: 50px;
+    font-family: "DM Sans" , 'sans-serif';
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none   ;
+}
+.Footer_Other_Socials{
+    display: flex;
+    vertical-align: middle;
+}
+.Footer_Other_Socials>a>i{
+    padding: 0 15px;
+
+}
+.Footer_signature{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 120px;
+}
